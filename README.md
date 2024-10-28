@@ -36,16 +36,20 @@ Los usuarios deben ser capaces de:
 ### Pantallazo
 
 Se tiene una vista de las actividades que recorre el sistema npm test, para ver con un check si todo salio bien o mal...
+
 ![alt text](image.png)
 
 De darse todo bien, se tiene el resultado:
+
 ![alt text](image-1.png)
 
 Por ejemplo, si mi estado inicial, coloco 2 TASKS en vez de 3 que hay en el script task.service.js, ahi me saldra un error.:
+
 ![alt text](image-2.png)
 
 Al final me sale esto:
 Esperaba ver 2 tasks pero en el estado inicial en el sccrip task.service.js hay definidos 3 tasks, este cambio lo hice en el archivo /tests/api.test.js, const initialTasks...
+
 ![alt text](image-3.png)
 
 ## Mi proceso
